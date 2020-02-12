@@ -56,7 +56,7 @@ body {
     line-weight: var(--line-height-base);
 }
 
-a: link [href] {
+a: link {
     color: var(--text-color);
     text-decoration: none;
 }
