@@ -4,15 +4,15 @@ $font-color-success: #00FF00;
 $font-color-warning: #FF0000;
 
 .info {
-  font-size: $font-size-info;
+ font-size: 12px;
 }
 
 .success {
   @extend .info;
-  color: $font-color-success;
+  color: #00FF00;;
  }
 
 .warning {
   @extend .info;
-  color: $font-color-warning;
+  color: #FF0000;
 }
