@@ -133,16 +133,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.button-primary {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-}
-
-.button-primary:hover {
-    color: var(--color-primary);
-    background-color: var(--color-white);
-}
-
 a:active {
     background-color: var(--color-light-grey);
 }
@@ -162,6 +152,16 @@ a:active {
     background: var(--button-hover-background);
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
+}
+
+.button-primary {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.button-primary:hover {
+    color: var(--color-primary);
+    background-color: var(--color-white);
 }
 
 /* Helpers
