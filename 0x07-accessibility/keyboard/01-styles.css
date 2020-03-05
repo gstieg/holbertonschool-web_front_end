@@ -661,10 +661,6 @@ ul.row {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-inner {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .card-work .card-title {
   text-align: center;
   margin: 0;
@@ -694,6 +690,10 @@ ul.row {
     --text-color: var(--color-white);
     position: relative;
   }
+
+  .card-work .card-title {
+      opacity: 1;
+}
 
   .card-work .card-title a {
     display: block;
