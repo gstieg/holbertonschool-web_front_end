@@ -182,16 +182,16 @@ a:active {
     ============================= */
 
 .visually-hidden:not(:focus):not(:active) {
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 
 .off-screen {
-    left: -100vw;
+    left: -100w;
     position: absolute;
 }
 
@@ -206,6 +206,7 @@ a:active {
     z-index: 10;
     transform: translateY(-1rem);
     transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    
 }
 
 .skip-link:focus {
